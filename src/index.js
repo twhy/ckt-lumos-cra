@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import * as lumos from 'ckt-lumos-lumos';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+Object.assign(window, { lumos });
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
